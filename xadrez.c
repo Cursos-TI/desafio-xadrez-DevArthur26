@@ -26,5 +26,19 @@ int main() {
     } while (movimentos_rainha < 8);
     printf("\n");
 
+    // Movimento do Cavalo (duas casas para cima e uma para a esquerda)
+    printf("\nMovimento do Cavalo:\n");
+    // Loop externo para as duas casas para cima (usando for)
+    for (int cima = 0; cima < 2; cima++) {
+        printf("Cima\n");
+    }
+    // Loop interno para uma casa para a esquerda (usando while)
+    int esquerda = 1;
+    while (esquerda > 0) {
+        printf("Esquerda\n");
+        esquerda--;
+    }
+    printf("\n");
+
     return 0;
 }
